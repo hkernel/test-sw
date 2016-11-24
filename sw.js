@@ -2,7 +2,7 @@
 
 self.addEventListener('install', function(event) {
 	  event.waitUntil(
-	    fetchStuffAndInitDatabases()
+	    console.log("service worker installing");
 	  );
 	});
 
