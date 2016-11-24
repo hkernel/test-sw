@@ -1,6 +1,6 @@
  
 if ('serviceWorker' in navigator) {
-	  navigator.serviceWorker.register('/test-ws/sw.js')
+	  navigator.serviceWorker.register('/test-sw/sw.js')
 	  .then(function(reg) {	// success
 	    console.log('sw.js registered succesfully!', reg);
 	  }).catch(function(err) { // failure
